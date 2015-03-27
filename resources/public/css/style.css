@@ -1,0 +1,26 @@
+.timetable {
+  margin: 0 auto;
+  width: 760px;
+}
+
+.timetable h2 {
+  text-align: center;
+}
+
+.slot {
+  width: 100%;
+}
+
+.session:nth-child(even) {
+  background-color: #eee;
+}
+
+.session {
+  display: flex;
+  flex-direction: row;
+}
+
+.session span {
+  width: 50%;
+  text-align: center;
+}
